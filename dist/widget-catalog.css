@@ -1,0 +1,44 @@
+.styles-module__link___aFb0p{display:flex;gap:4px}.styles-module__layout___hqBlF{height:100%}.styles-module__header___Kp7lR{display:flex;align-items:center}.styles-module__menu___Ng0aK{flex:1;min-width:0;justify-content:center}.styles-module__children___JdzKn{border-radius:10px;overflow:hidden}.styles-module__content___UeJ1q{padding:24px;margin:0;min-height:calc(100vh - 64px);background:rgba(123,123,123,0);border-radius:10px}
+.style-module__cards___jCKS0{display:grid;grid-template-columns:repeat(5, 1fr);background-color:#364d79;padding:50px;color:#fff}.style-module__image___izu6A{width:100px;height:100px}.style-module__carousel___pjTla{display:grid;grid-template-columns:repeat(auto-fill, minmax(150px, 1fr))}
+.style-module__card___ZJ3kM img{width:170px;height:170px;object-fit:contain;padding:10px}
+.style-module__catalog___Fcg4D{display:grid;grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));gap:20px;padding:0 10px}
+.style-module__filter___HylQb{width:100px}.style-module__filters___XJcLZ{flex-wrap:wrap}.style-module__card___NyZn4{width:fit-content;display:flex}@media(max-width: 844px){.style-module__card___NyZn4{width:100%;justify-content:center}}@media(max-width: 650px){.style-module__radio___PWJS0,.style-module__tags___sUOmb{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px}}@media(max-width: 650px){.style-module__radioItem___EC4Vp{width:100%;text-align:center;border-end-end-radius:0 !important;border-start-end-radius:0 !important;border-start-start-radius:0 !important;border-end-start-radius:0 !important}}
+.style-module__sum___DC0ZH{display:flex;align-self:flex-end;font-size:25px}
+body {
+  margin: 0;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+.slick-slide > div {
+  padding: 0 10px;
+}
+
+.slick-slide {
+  margin: 30px 0;
+}
+
+.slick-prev,
+.slick-next {
+  color: #1677ff !important;
+}
+
+.slick-dots-bottom button {
+  background: #1677ff88 !important;
+}
+.slick-dots-bottom + .slick-active {
+  background: #1677ff !important;
+}
+
+.slick-dots li::after,
+.slick-dots li button,
+.slick-dots li,
+.slick-dots li.slick-active {
+  height: 8px !important;
+}
+
+.slick-dots.slick-dots-bottom {
+  height: 8px;
+}
+

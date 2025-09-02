@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+.slick-slide > div {
+  padding: 0 10px;
+}
+
+.slick-slide {
+  margin: 30px 0;
+}
+
+.slick-prev,
+.slick-next {
+  color: #1677ff !important;
+}
+
+.slick-dots-bottom button {
+  background: #1677ff88 !important;
+}
+.slick-dots-bottom + .slick-active {
+  background: #1677ff !important;
+}
+
+.slick-dots li::after,
+.slick-dots li button,
+.slick-dots li,
+.slick-dots li.slick-active {
+  height: 8px !important;
+}
+
+.slick-dots.slick-dots-bottom {
+  height: 8px;
+}

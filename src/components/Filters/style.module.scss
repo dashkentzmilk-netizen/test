@@ -1,0 +1,40 @@
+.filter {
+  width: 100px;
+}
+
+.filters {
+  flex-wrap: wrap;
+}
+
+.card {
+  width: fit-content;
+  display: flex;
+
+  @media (max-width: 844px) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.radio,
+.tags {
+  @media (max-width: 650px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+  }
+}
+
+.radioItem {
+  @media (max-width: 650px) {
+    width: 100%;
+    text-align: center;
+    border-end-end-radius: 0 !important;
+    border-start-end-radius: 0 !important;
+    border-start-start-radius: 0 !important;
+    border-end-start-radius: 0 !important;
+  }
+}

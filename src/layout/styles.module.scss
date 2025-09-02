@@ -1,0 +1,32 @@
+.link {
+  display: flex;
+  gap: 4px;
+}
+
+.layout {
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  flex: 1;
+  min-width: 0;
+  justify-content: center;
+}
+
+.children {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content {
+  padding: 24px;
+  margin: 0;
+  min-height: calc(100vh - 64px);
+  background: rgba(123, 123, 123, 0);
+  border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+{
+  "name": "widget-catalog",
+  "version": "1.0.0",
+  "description": "Catalog widget with React, MobX, TypeScript",
+  "main": "dist/widget-catalog.js",
+  "homepage": "https://dashkentzmilk-netizen.github.io/test",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "type-check": "tsc --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "antd": "^5.12.8",
+    "axios": "^1.6.2",
+    "mobx": "^6.10.2",
+    "mobx-react-lite": "^4.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "css-loader": "^6.8.1",
+    "gh-pages": "^6.1.0",
+    "html-webpack-plugin": "^5.5.4",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.91.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "mobx",
+    "widget",
+    "catalog",
+    "antd",
+    "webpack"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

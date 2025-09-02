@@ -1,0 +1,20 @@
+<!doctype html><html lang="ru"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Widget Catalog</title><script defer="defer" src="widget-catalog.js"></script><link href="widget-catalog.css" rel="stylesheet"></head><body><div id="widget-catalog"></div><script>function initWidgetCatalog() {
+        const widget = new window.WidgetCatalog({
+          el: "#widget-catalog",
+          dealers: [],
+        });
+        widget.run();
+      }
+
+      window.onload = function () {
+        if (window.WidgetCatalog) {
+          initWidgetCatalog();
+        } else {
+          const checkWidget = setInterval(() => {
+            if (window.WidgetCatalog) {
+              clearInterval(checkWidget);
+              initWidgetCatalog();
+            }
+          }, 100);
+        }
+      };</script><link rel="stylesheet" href="https://dashkentzmilk-netizen.github.io/test/dist/widget-catalog.css"/><script async src="https://dashkentzmilk-netizen.github.io/test/dist/widget-catalog.js" onload="initWidgetCatalog()"></script></body></html>
